@@ -3,6 +3,9 @@
 def square_array(array)
   count = 0 
   new_array = []
-  while square_array.length > count do
-    new_array.push
+  while array.length > count do
+    new_array.push(array ** array)
+    count += 1
+  end
+  new_array
 end
