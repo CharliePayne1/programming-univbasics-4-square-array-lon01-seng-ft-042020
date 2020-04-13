@@ -1,11 +1,8 @@
 
-
 def square_array(numbers)
-  count = 0 
-  new_array = []
-  while numbers.length > count do
-    new_array.push(numbers ** 2)
-    count += 1
+  # your code here	  new_numbers = []
+end 	  numbers.each do |num|
+    new_numbers << (num ** 2)
   end
-  new_array
+  return new_numbers
 end
