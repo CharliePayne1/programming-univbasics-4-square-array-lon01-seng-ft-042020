@@ -1,10 +1,7 @@
-
 def square_array(numbers)
-  new_numbers = []
-  numbers.times do |numbers|
-    new_numbers << (numbers ** 2)
+  new_array = []
+numbers.length.times do |index|
+  new_array.push(numbers ** 2)
   end
-  return new_numbers
+new_array
 end
-
-def square_array
