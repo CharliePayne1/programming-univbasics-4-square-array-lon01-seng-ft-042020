@@ -1,8 +1,8 @@
 
 def square_array(numbers)
   new_numbers = []
-  numbers.times do |num|
-    new_numbers << (num ** 2)
+  numbers.times do |numbers|
+    new_numbers << (numbers ** 2)
   end
   return new_numbers
 end
